@@ -1,0 +1,130 @@
+body{
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+main{
+    min-height: 90vh;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+
+
+/*HEADER*/
+
+body{
+    color: white;
+}
+
+.go-home-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.go-home-icon {
+    filter: invert(100%) brightness(100%); /* Cambia el ícono a blanco */
+    margin-right: 10px;
+    width: 24px; /* Ajusta el tamaño del ícono */
+    height: auto;
+}
+header {
+    height: 100px;
+    display: flex;
+    align-items: center; /*Centra verticalmente el contenido dentro de header*/
+    padding: 0 20px; /*Añade un margen interno de 20 píxeles a los lados izquierdo y derecho*/
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+header a {
+    text-decoration: none; /*Elimina el subrayado de los enlaces */
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+header img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+header h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: white
+}
+
+/*-------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FOOTER*/
+footer {
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;  /* Coloca el contenido alineado a la derecha*/
+    align-items: center;
+    padding: 0 20px;
+    position: relative;
+    border-top: 1px solid white; /* */
+    margin-top: auto;
+    
+}
+
+footer nav {
+    display: flex;
+    gap: 15px; /* Espacio entre los iconos */
+
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+    filter: brightness(0) invert(1); /* Convierte las imágenes en blanco */
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+footer img:hover {
+    transform: scale(1.2); /* Agranda la imagen un 20% al pasar el ratón */
+    filter: brightness(0.8) invert(1); /*Reduce el brillo ligeramente durante el hover*/
+}

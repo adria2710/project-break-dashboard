@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../global.css">
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <header>
+        <a href="../index.html" class="go-home-link">
+            <img src="https://carlosdiazgirol.github.io/dashboard/assets/img/cohete.png" alt="goHome" class="go-home-icon"> <!--la imagen-->
+            <h2>GO HOME</h2>
+        </a>
+    </header>
+    <main>
+        <div id="contenedorPawsord" class="contenedor">
+            <label for="length">Numero de caracteres de la contraseña</label>
+            <input type="number" id="length" name="length" min="12" max="50"
+            value="12">
+            <button type="button" onclick="generatePassword()">Generar contraseña</button>
+        </div>
+        <div id="resultadoContraseña"></div>
+    </main>
+    
+    <footer id="footer">
+        <nav>
+            <a href="../Reloj Digital/index.html">
+                <img src="https://carlosdiazgirol.github.io/dashboard/assets/img/reloj.png" alt="clock">
+            </a>
+            <a href="../Generador de contraseñas/index.html">
+                <img src="https://carlosdiazgirol.github.io/dashboard/assets/img/candado.png" alt="lock">
+            </a>
+            <a href="../listado de links/index.html">
+                <img src="https://carlosdiazgirol.github.io/dashboard/assets/img/enlace.png" alt="link">
+            </a>
+            <a href="../Estacion Metelogocia/index.html">
+                <img src="https://carlosdiazgirol.github.io/dashboard/assets/img/nube.png" alt="cloud">
+            </a>
+        </nav>
+    </footer>
+    <script src="script.js"></script>
+    <script src="../script.js"></script>
+</body>
+</html>

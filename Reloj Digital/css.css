@@ -1,0 +1,40 @@
+main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#contenedor {
+    background-color: #2e2e40; /* Fondo gris oscuro */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+#contenedor h2 {
+    margin: 0;
+    font-size: 28px;
+    color: #00ffcc; /* Verde azulado brillante */
+}
+
+#reloj {
+    font-size: 48px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+#fecha {
+    font-size: 18px;
+    color: #aaaaaa;
+    margin-bottom: 10px;
+}
+
+#mensaje {
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #003366; /* Azul */
+    padding: 10px;
+    border-radius: 8px;
+}

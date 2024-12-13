@@ -1,0 +1,108 @@
+main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+}
+
+.lista {
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo negro translúcido */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    width: 90%;
+    max-width: 500px;
+}
+
+.lista div:first-child {
+    margin-bottom: 15px;
+}
+
+.lista h2 {
+    font-size: 24px;
+    margin: 0;
+    color: white; /* Verde azulado brillante */
+}
+
+.lista img {
+    width: 40px;
+    height: auto;
+    margin-top: 10px;
+}
+
+/* Input and Button Styles */
+.lista input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.lista input:focus {
+    outline: none;
+    border-color: #00ffcc;
+    box-shadow: 0 0 4px #00ffcc;
+}
+
+.add-link-button {
+    background-color: #002D62;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.add-link-button:hover {
+    background-color: #004080;
+}
+
+/* Links List */
+#links-contenedor {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+#links-contenedor li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+#links-contenedor a {
+    color: #00ffcc;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#links-contenedor a:hover {
+    text-decoration: underline;
+}
+
+.delete-button {
+    background-color: #ff4444;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.delete-button:hover {
+    background-color: #cc0000;
+}

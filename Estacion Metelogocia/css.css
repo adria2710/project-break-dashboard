@@ -1,0 +1,18 @@
+
+.forecast{
+    display: flex;
+    width: 400px;
+    overflow: scroll;
+}
+
+.weather-container {
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente negro */
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block; /*Hace que el contenedor ocupe solo el espacio necesario*/
+    margin-top: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+.weather-info{
+    display: flex;
+}

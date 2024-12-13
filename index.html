@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <header>
+        <a href="../index.html" class="go-home-link">
+            <img src="https://carlosdiazgirol.github.io/dashboard/assets/img/cohete.png" alt="goHome" class="go-home-icon"> <!--la imagen-->
+            <h2>GO HOME</h2>
+        </a>
+    </header>
+    <main class="main container">
+        <section class="lista-contenedor">
+            <div class="lista">
+                <div>
+                    <h2>Añade tu enlace de interes </h2>
+                    <img src="https://carlosdiazgirol.github.io/dashboard/assets/img/enlace.png" alt="link">
+                </div>
+                <div>
+                    <input type="text" id="name-input" placeholder="Nombre de tu enlace" required>
+                    <input type="text"  id="url-input" required  placeholder="Pega aqui la URL">
+                    <button id="add-link-button" class="add-link-button">Añadir enlace</button>
+                </div>
+                <ul id="links-contenedor" class="links-coontenedor"></ul>
+            </div>
+        </section>
+        <section class="time-contenedor">
+            <div class="weather-container">
+                <h1 class="weather-header">Estación Meteorológica</h1>
+                <div class="weather-info">
+                    <h2 id="location"></h2>
+                    <img id="weather-icon" src="" alt="weather icon">
+                    <p id="temperature"></p>
+                    <p id="condition"></p>
+                    <p id="details"></p>
+                </div>
+                <h2>Previsión por Horas</h2>
+                <div class="forecast" id="forecast"></div>
+            </div>
+            <div class="div-pasword">
+            <div id="contenedorPawsord" class="contenedor">
+                <label for="length">Numero de caracteres de la contraseña</label>
+                <input type="number" id="length" name="length" min="12" max="50"
+                value="12">
+                <button type="button" onclick="generatePassword()">Generar contraseña</button>
+            </div>
+            <div id="resultadoContraseña"></div>
+            </div>
+        </section>
+        
+    </main>
+    <footer id="footer">
+        <nav>
+            <a href="Reloj Digital/index.html">
+                <img src="https://carlosdiazgirol.github.io/dashboard/assets/img/reloj.png" alt="clock">
+            </a>
+            <a href="Generador de contraseñas/index.html">
+                <img src="https://carlosdiazgirol.github.io/dashboard/assets/img/candado.png" alt="lock">
+            </a>
+            <a href="listado de links/index.html">
+                <img src="https://carlosdiazgirol.github.io/dashboard/assets/img/enlace.png" alt="link">
+            </a>
+            <a href="Estacion Metelogocia/index.html">
+                <img src="https://carlosdiazgirol.github.io/dashboard/assets/img/nube.png" alt="cloud">
+            </a>
+        </nav>
+    </footer>
+    <script src="script.js"></script>
+    <script src="Estacion Metelogocia/script.js"></script>
+    <script src="Generador de contraseñas/script.js"></script>
+    <script src="listado de links/script.js"></script>
+    <script src="Reloj Digital/script.js"></script>
+</body>
+</html>
